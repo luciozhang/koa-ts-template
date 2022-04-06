@@ -1,0 +1,35 @@
+{
+  "name": "koa-ts-template",
+  "version": "0.0.1",
+  "description": "koa2+ts",
+  "main": "app.ts",
+  "scripts": {
+    "dev": " nodemon --exec 'ts-node' --files app.ts",
+    "start": "npm run dev",
+    "lint": "eslint --ext .js,.ts .",
+    "lint:fix": "eslint --fix --ext .ts,.js,.vue ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/koa": "^2.13.4",
+    "@types/koa-logger": "^3.1.2",
+    "@types/koa-router": "^7.4.4",
+    "@types/koa-static": "^4.0.2",
+    "@typescript-eslint/eslint-plugin": "^4.28.5",
+    "@typescript-eslint/parser": "^4.28.5",
+    "eslint": "^7.31.0",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.1.1",
+    "koa-static": "^5.0.0",
+    "koa-views": "^8.0.0",
+    "koa-logger": "^3.2.1"
+  }
+}
