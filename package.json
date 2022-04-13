@@ -1,7 +1,8 @@
 {
-  "name": "koa-ts-template",
+  "name": "{{name}}",
   "version": "0.0.1",
-  "description": "koa2+ts",
+  "description": "{{description}}",
+  "author": "{{author}}",
   "main": "app.ts",
   "scripts": {
     "dev": " nodemon --exec 'ts-node' --files app.ts",
@@ -9,7 +10,6 @@
     "lint": "eslint --ext .js,.ts .",
     "lint:fix": "eslint --fix --ext .ts,.js,.vue ."
   },
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/koa": "^2.13.4",
